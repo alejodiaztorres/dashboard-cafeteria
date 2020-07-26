@@ -1,0 +1,7 @@
+{
+  "name": "dashboard_desafio",
+  "private": true,
+  "dependencies": {
+    "highcharts": "^8.1.2"
+  }
+}

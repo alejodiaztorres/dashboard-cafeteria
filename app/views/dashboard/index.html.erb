@@ -1,0 +1,69 @@
+<h1 class="text-center">Dahsboard Cafetería Alejandro Valdéz</h1>
+<br>
+
+<h4 class="text-center"> Ventas mensuales de los últimos 12 meses</h4>
+
+<%= line_chart @sales_grouped_by_month %>
+
+<h4 class="text-center"> Cantidad de ventas mensuales de los últimos 12 meses</h4>
+
+<%= line_chart @quantity_grouped_by_month %>
+
+
+<h4 class="text-center"> Promedio de ventas mensuales de los últimos 12 meses</h4>
+
+<%= column_chart @sales_prom_grouped_by_month %>
+
+
+<h4 class="text-center"> Cantidad de ventas mensuales según el origen del cafe:</h4>
+
+<br>
+
+<h4 class="text-center"> Últimos 12 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_origin_12 %>
+
+<br>
+
+<h4 class="text-center">Últimos 6 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_origin_6 %>
+
+<br>
+
+<h4 class="text-center"> Últimos 3 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_origin_3 %>
+
+<br>
+
+<h4 class="text-center"> Último 1 mes:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_origin_1 %>
+
+
+<h4 class="text-center"> Ventas mensuales según el nombre del cafe:</h4>
+
+<br>
+
+<h4 class="text-center">Últimos 12 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_product_12 %>
+
+<br>
+
+<h4 class="text-center">Últimos 6 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_product_6 %>
+
+<br>
+
+<h4 class="text-center">Últimos 3 meses:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_product_3 %>
+
+<br>
+
+<h4 class="text-center">Último 1 mes:</h5>
+
+<%= pie_chart @quantity_sales_grouped_by_product_1 %>
