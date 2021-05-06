@@ -2,6 +2,6 @@
   "name": "dashboard_desafio",
   "private": true,
   "dependencies": {
-    "highcharts": "^8.1.2"
+    "highcharts": "^9.0.0"
   }
 }
